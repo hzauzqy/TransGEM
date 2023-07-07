@@ -112,9 +112,9 @@ python train.py --help
 
 - Model parameters of 4 encoding forms
 
-| Encoding form |  hidden_dim   |     ff_dim    |  TF_N         |
-| :------------:| :------------:| :------------:| :------------:|
-| value         | 64            |512            |6              |
-| one_hot       | 64            |512            |6              |
-| binary        | 64            |512            |6              |
-| tenfold_binary| 64            |512            |6              |
+| Encoding form |  hidden_dim   |     ff_dim    |  TF_N         |  TF_H         |
+| :------------:| :------------:| :------------:| :------------:| :------------:|
+| value         | 64            |2048           |6              |8              |
+| one_hot       | 64            |512            |6              |8              |
+| binary        | 64            |512            |6              |8              |
+| tenfold_binary| 64            |512            |6              |8              |
