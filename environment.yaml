@@ -1,0 +1,28 @@
+name: TransGEM
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - rdkit=2021.9.2.1
+  - python=3.8
+  - pip>=21.2
+  - torch=1.9.1
+  - pip:
+    - numpy==1.22.2
+    - pandas==1.4.1
+    - rdkit-pypi==2021.9.2.1
+    - scikit-learn==1.0.1
+    - scipy==1.8.0
+    - seaborn==0.11.2
+    - selfies==1.0.3
+    - spacy==3.2.4
+    - spacy-legacy==3.0.9
+    - spacy-loggers==1.0.2
+    - https://download.pytorch.org/whl/cu111/torch-1.9.1%2Bcu111-cp38-cp38-linux_x86_64.whl
+    - torch-geometric==2.0.3
+    - https://data.pyg.org/whl/torch-1.9.0%2Bcu111/torch_scatter-2.0.9-cp38-cp38-linux_x86_64.whl
+    - https://data.pyg.org/whl/torch-1.9.0%2Bcu111/torch_sparse-0.6.12-cp38-cp38-linux_x86_64.whl
+    - torchtext==0.10.1
+    - https://download.pytorch.org/whl/cu111/torchvision-0.10.1%2Bcu111-cp38-cp38-linux_x86_64.whl
+    - tqdm==4.63.0
