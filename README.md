@@ -72,6 +72,13 @@ python app.py --data_path ./data/  --dataset PC --cell_line PC3 --gene_encoder t
 ```sh
 python app.py --data_path ./data/  --dataset nsclc --cell_line A549 --gene_encoder tenfold_binary --gpu cuda:0 --seq_num 1000
 ```
+
+### Get attention scores between 978 genes and generated molecules
+
+```sh
+python get_attention.py --data_path ./data/  --gene_encoder tenfold_binary --gpu cuda:0
+```
+
 ## Model options
 
 - usage: 
